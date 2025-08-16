@@ -35,3 +35,8 @@ The platform also includes **authentication, admin tools, notifications, and his
 ```bash
 git clone https://github.com/kuberahs346/ai_legal_bridge.git
 cd ai_legal_bridge
+## 📸 Screenshots
+Here’s a preview of the AI Legal Bridge dashboard:
+
+![Dashboard Screenshot](deskstop.png)
+
