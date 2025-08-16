@@ -1,26 +1,37 @@
-# AI Legal Bridge ⚖️🤖
+# ⚖️ AI Legal Bridge – Intelligent Legal Document Processing  
 
-AI Legal Bridge is a Flask-based web app for **legal document summarization, Kannada translation, audio (gTTS), and PDF generation**.  
-It includes **auth, admin dashboard, SMS/Email, and upload history**.
+AI Legal Bridge is a Flask-based web application that simplifies handling of legal documents.  
+It automatically **summarizes**, **translates into Kannada**, generates **audio narration (gTTS)**, and provides **PDF reports**.  
+The platform also includes **authentication, admin tools, notifications, and history tracking**.  
 
-## ✨ Features
-- Upload `.txt` / `.csv`
-- T5 / BART / LED summarization
-- Kannada translation
-- gTTS audio
-- PDF reports
-- User profile + upload history
-- Email/SMS notifications (D7 / Gmail SMTP)
-- Admin: view/edit/delete/export users
+---
 
-## 🛠 Tech
-Flask, Python, SQLAlchemy, SQLite/MySQL, Transformers (T5/BART/LED), gTTS.
+## ✨ Features  
 
-## 🚀 Run locally
+- 📂 Upload legal documents (`.txt` / `.csv`)  
+- 🤖 AI Summarization (T5 / BART / LED models)  
+- 🌐 Kannada Translation  
+- 🔊 Audio narration using gTTS  
+- 📄 PDF Report Generation  
+- 👤 User authentication & profile management  
+- 🕑 Upload history tracking  
+- 📧 Email & 📱 SMS notifications (D7 Networks / Gmail SMTP)  
+- 🛠️ Admin dashboard (manage users, export, search, edit, delete)  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Backend**: Flask (Python)  
+- **Database**: SQLite / MySQL with SQLAlchemy  
+- **AI Models**: Transformers (T5, BART, LED)  
+- **Other**: gTTS, PDF generation, D7 SMS API, Gmail SMTP  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/kuberahs346/ai_legal_bridge.git
 cd ai_legal_bridge
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
